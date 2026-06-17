@@ -8,6 +8,10 @@ Clinical guideline documents are long, dense, and hard to query. Standard LLMs h
 
 The design rationale for choosing llama.cpp over higher-level inference frameworks was intentional: it surfaces low-level inference parameters — temperature, repetition penalties, Mirostat sampling — and makes the mechanics of LLM inference legible, not abstracted away.
 
+# **output screenshot**
+<img width="1368" height="1783" alt="query_response" src="https://github.com/user-attachments/assets/5f204f4a-52a4-430a-aebf-d6de61c2775f" />
+<img width="1374" height="1787" alt="retrieved_chunks" src="https://github.com/user-attachments/assets/f3d7e908-a721-40c5-85e2-0201c33bcd6d" />
+
 # **System Architecture**
 High-level workflow:
 
